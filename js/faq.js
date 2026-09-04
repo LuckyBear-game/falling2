@@ -1,0 +1,2 @@
+/* Design: «Жила света» — раскрытие FAQ как нового информационного пласта. */
+(() => { document.querySelectorAll('.faq-question').forEach(button => button.addEventListener('click', () => { const item = button.closest('.faq-item'); const answer = document.getElementById(button.getAttribute('aria-controls')); const expanded = button.getAttribute('aria-expanded') === 'true'; button.setAttribute('aria-expanded', String(!expanded)); item.classList.toggle('is-open', !expanded); answer.hidden = expanded; })); })();

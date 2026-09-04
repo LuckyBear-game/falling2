@@ -1,0 +1,11 @@
+/* TEAM */
+Site: Falling Pickaxe
+Purpose: Russian-language informational guide
+Contact: [укажите официальный email]
+
+/* TECHNOLOGY */
+HTML5, CSS3, vanilla JavaScript
+No trackers or external libraries in this static build.
+
+/* NOTE */
+18+ only. Gambling involves risk.
